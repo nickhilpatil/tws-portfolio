@@ -22,4 +22,4 @@ jobs:
 
     - name: Deploy static site to S3 bucket
       run: |
-        aws s3 sync . s3://tws-portfolio --delete --exclude "node_modules/*"
+        aws s3 sync . s3://tws-portfolio-devops --delete --exclude "node_modules/*"
